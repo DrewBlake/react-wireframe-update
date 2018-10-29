@@ -1,0 +1,61 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML Wireframe Update Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+   
+</head>
+<body>
+    <nav role="navigation">
+        <a href="">Home</a>
+        
+    </nav>
+    <main role="main">
+        <header role="banner">
+            <h1>Search Results</h1>    
+        </header>
+        <section class="search-result">
+            <header>
+                <h2>Information for vehicle ID entered</h2>                           
+            </header>
+            <div>
+                <h3>2004 Honda Accord</h3>
+                <h3>Vehicle is used</h3>
+                <h3>Vehicle has 89,000 miles</h3>
+                <h3>Vehicle is parked in spot 56E</h3>   
+            </div>              
+        </section>
+        <section>
+            <header>
+                <h2>Update vehicle info</h2>
+                <h3>Change mileage or parking spot location</h3>
+            </header>
+            <form action='#' class='add-inventory'>
+                <div>
+                    <label for="mileage">Updated mileage</label>
+                    <input type="number" name='mileage' id='mileage' />
+                </div>
+                <div>
+                    <label for="location">New parking space</label>
+                    <input type="text" name='location' id='location' />
+                </div>
+                <button type='submit'>Update</button>
+            </form>
+        </section>
+        <section class="delete-vehicle">
+            <header>
+                <h2>Delete Vehicle from inventory</h2>
+                <h3>If vehicle has been sold, wholesaled or salvaged
+                    due to damage</h3>
+            </header>
+            <button>Delete</button>
+        </section>
+       
+    </main>
+    <footer role="contentinfo"><a href="">Contact Info</a></footer>
+</body>
+</html>
